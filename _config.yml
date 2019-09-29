@@ -5,3 +5,7 @@ title: Volkarl´s Projects
 layout: post
 title: stuff
 ---
+food: Pizza
+---
+
+<h1>{{ page.food }}</h1>
