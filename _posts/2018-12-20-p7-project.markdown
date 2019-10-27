@@ -1,0 +1,15 @@
+---
+layout:			semesterproject
+semester:		7
+title:			"Dimensional-Shopping"
+deliverdate: 	2018-12-20
+status:			"success"
+---
+
+
+Hello
+So this is where I write all of my shit
+What this project was about, how I completed it, what we worked with and nice looking picture of it. Why am I proud of this project?
+
+
+![My helpful screenshot](/assets/crasbandekot.png)

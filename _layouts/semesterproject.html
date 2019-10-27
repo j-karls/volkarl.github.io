@@ -1,0 +1,21 @@
+---
+---
+
+<h1>P{{ page.semester }}-Project<h1>
+<h2>{{ page.title }}<h2>
+
+<p>Status: 
+	{% if page.status == "success" %}
+	<img src="/assets/icons/check.svg" style="max-width: 50px;"/>	
+	{% endif %}
+	{% if page.status == "medium" %}
+	<img src="/assets/icons/tilde.png" style="max-width: 50px;"/>	
+	{% endif %}
+	{% if page.status == "failed" %}
+	<img src="/assets/icons/cross.png" style="max-width: 50px;"/>
+	{% endif %}
+<p>
+
+<small>{{page.deliverdate | date: "%-d %B %Y" }}</small>
+
+{{content}}

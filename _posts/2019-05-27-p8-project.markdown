@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "P8-Project"
+date:   2019-05-27
+---
+Hello
+
+
+
+
+
+![My helpful screenshot](/assets/crasbandekot.png)
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
